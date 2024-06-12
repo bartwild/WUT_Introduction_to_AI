@@ -1,0 +1,23 @@
+from game import GameType, DrawParameters
+
+BOARD_SIZE = 4
+INIT_POS_P1 = (0, 0)
+INIT_POS_P2 = (2, 2)
+DEPTH = 3
+GAME_TYPE = GameType.MINIMAX_AND_MINIMAX
+######
+
+WIN_SIZE = 400
+BLOCKED_COLOR = (0, 0, 0)
+AVAILABLE_COLOR = (0, 255, 255)
+P1_COLOR = (255, 0, 0)
+P2_COLOR = (0, 255, 0)
+
+DRAW_PARAMS = DrawParameters(
+    WIN_SIZE,
+    BOARD_SIZE,
+    BLOCKED_COLOR,
+    AVAILABLE_COLOR,
+    P1_COLOR,
+    P2_COLOR
+)
